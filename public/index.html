@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>💎 Rubli Tycoon Online</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>💎 Rubli Tycoon</h1>
+
+<input id="name" placeholder="Введите ник">
+<button onclick="login()">Войти</button>
+
+<div id="game" style="display:none">
+<h2 id="money">0 ₽</h2>
+<button onclick="clickMoney()">💰 Клик</button>
+<button onclick="buyAuto()">🤖 Автоклик</button>
+<button onclick="save()">💾 Сохранить</button>
+
+<h3>🏆 Топ игроков</h3>
+<ul id="top"></ul>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
